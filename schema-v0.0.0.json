@@ -23,6 +23,7 @@
         "type": "object",
         "properties": {
           "amount": {
+            "$comment": "Please convert non-USD to USD (approximation is fine).",
             "description": "Amount in whole US dollars",
             "type": "number",
             "exclusiveMinimum" : 0
@@ -108,7 +109,9 @@
               "rubycentral",
               "rust",
               "sahana",
-              "scale"
+              "scale",
+
+              "other"
             ]
           }
         }
